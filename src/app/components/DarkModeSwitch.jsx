@@ -5,14 +5,16 @@ import { MdLightMode, MdDarkMode } from "react-icons/md";
 import { useTheme } from "next-themes";
 
 export default function DarkModeSwitch() {
+  /**
+   * To be able to capture the theme from the system, we need to wait for
+   * the component to be mounted. Otherwise, the theme will load to the default theme
+   * and it could be incorrect if the user uses dark mode on their system.
+   * */
+  const [mounted, setMounted] = useState(false);
+
   const { setTheme, resolvedTheme } = useTheme();
   const dark = "dark";
   const light = "light";
-
-  // To be able to capture the theme from the system, we need to wait for
-  // the component to be mounted. Otherwise, the theme will load to the default theme
-  // and it could be incorrect if the user uses dark mode on their system.
-  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
