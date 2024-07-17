@@ -1,6 +1,4 @@
-import React from "react";
-
-const MovieResults = ({ results }) => {
+export default function MovieResults({ results }) {
   return (
     <div>
       {results.map((result) => (
@@ -11,6 +9,4 @@ const MovieResults = ({ results }) => {
       ))}
     </div>
   );
-};
-
-export default MovieResults;
+}

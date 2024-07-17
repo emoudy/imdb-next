@@ -1,10 +1,9 @@
 "use client";
 
-import React from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 
-const SubNavbarItem = ({ title, param }) => {
+export default function SubNavbarItem({ title, param }) {
   const searchParams = useSearchParams();
   const genre = searchParams.get("genre");
   return (
@@ -21,6 +20,4 @@ const SubNavbarItem = ({ title, param }) => {
       </Link>
     </div>
   );
-};
-
-export default SubNavbarItem;
+}
