@@ -11,7 +11,7 @@ export const metadata = {
   description: "This is a movie database clone",
 };
 
-const RootLayout = ({ children }) => {
+export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={inter.className}>
@@ -24,5 +24,3 @@ const RootLayout = ({ children }) => {
     </html>
   );
 }
-
-export default RootLayout
