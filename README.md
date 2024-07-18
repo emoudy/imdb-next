@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).  The purpose of this application is to learn to work with Next.JS.
+
+This application was done as a tutorial by Sahand Ghavidel in his course, "Next.js 14 (reactjs framework) Projects. 4 NextJS 14 projects. IMDB, Instagram, Twitter, Google clone using Next js 14".  
+
+The link to the tutorial repo is https://github.com/sahandghavidel/imdb-next and the original project can be viewed at imdb.100jsprojects.com/.  
+
+My version has some slightly differences but very similar in nature to the original and it can be viewed at https://imdb-next-x8zp-6nzdecrl8-emoudys-projects.vercel.app/ 
+* 
 
 ## Getting Started
 
